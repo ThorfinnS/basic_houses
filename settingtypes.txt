@@ -1,0 +1,2 @@
+# Do chests in houses have apples and bread?
+chests_have_food (Food in chests?) bool true
