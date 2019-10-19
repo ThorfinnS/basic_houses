@@ -455,6 +455,8 @@ basic_houses.place_chest = function( p, sizex, sizez, chest_places, wall_with_la
 		inv:add_item( "main", materials.ceiling.." "..pr:next(1,99) );
 	end
 	inv:add_item( "main", materials.glass.." "..pr:next(1,20) );
+	inv:add_item("main","default:apple 5")
+	inv:add_item("main","farming:bread 2")
 	if( not( materials.roof_flat )) then
 		inv:add_item( "main", materials.roof.." "..pr:next(1,99) );
 		inv:add_item( "main", materials.roof_middle.." "..pr:next(1,49) );
